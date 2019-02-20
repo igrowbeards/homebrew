@@ -12,3 +12,5 @@ A ruleset for tabletop roleplaying games that aims to be:
 While still maintaining:
   * the ability of the GM to tailor difficulty and play style for the group
   * just enough rules to inspire and guide players and dms
+
+For the current rules see the `RPG.md` file in this repo.
