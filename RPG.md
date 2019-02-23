@@ -41,10 +41,10 @@
 #### Basic Attributes
   There are 4 basic attributes that define your character:
 
-  * Strength
-  * Agility
-  * Cognition
-  * Charisma
+  * `STR` Strength
+  * `AGL` Agility
+  * `COG` Cognition
+  * `CHR` Charisma
 
   All attributes start at 5, You get 15 points when characters are created to buff these scores.
   In addition at character creation you may lower one attribute to by up to 5 points (to 0) and use the points removed 
@@ -54,10 +54,10 @@
   In addition to being used as the basis for checks when a talent is not more appropriate your attributes modify the results 
   of other actions your player may take.
 
-  * Strength modifies the damage dealt when you hit someone with something held in your hand or thrown.
-  * Dexterity makes you more difficult to hit (adds to your armor class)
-  * Cognition is added to spell casting attempts
-  * Charisma is added to attempts to lie, persuade, or perform
+  * `STR` modifies the damage dealt when you hit someone with something held in your hand or thrown.
+  * `AGL` makes you more difficult to hit (adds to your armor class)
+  * `COG` is added to spell casting attempts
+  * `CHR` is added to attempts to lie, persuade, or perform
 
   You gain modifiers to relevant checks based on the following scale:
 
@@ -73,27 +73,30 @@
   <= -10     | disabled
    
    At -10 in any ability score your character is disabled.
-   With regards to agility this means they are crippled, paralyzed or otherwise cannot move.
-   When at -10 or lower in cognition your character is unconscious, stunned, or comatose.
-   It would be uncommon to be at -10 in charisma and so the consequences thereof are left as an exercise for the GM.
+   With regards to `AGL` this means they are crippled, paralyzed or otherwise cannot move.
+   When at -10 or lower in `COG` your character is unconscious, stunned, or comatose.
+   It would be uncommon to be at -10 in `CHR` and so the consequences thereof are left as an exercise for the GM.
    
-   The major outlier in these is strength. If you character reaches -10 or lower in strength, their body is too weakened
+   The major outlier in these is `STR`. If you character reaches -10 or lower in `STR`, their body is too weakened
    or damaged to go on. They are unconscious and will die if not tended to soon or if they take any further damage.
    
 #### Derived Attributes
 
   Characters have 2 attributes derived from other factors
-  These are armor class and Hit Points
+  These are:
+   * `AC` Armor Class
+   * `HP` Hit Points
 
-  Armor Class represents how difficult to hit and/or well protected your character is.
-  The armor class stat is equal to a base of 8 (for an alert character who is able to move)
-  plus their dexterity modifier, plus their armor bonus.
+  `AC` represents how difficult a character is to hurt. This covers both how 
+  difficult it is to hit them, as well as how well armored they are.
+  The `AC` stat is equal to a base of 8 (for an alert character who is able to move)
+  plus their `AGL` modifier, plus their armor bonus.
 
   Hit Points represent your characters toughness, or their ability to be battered and bruised without lasting damage.
   When receiving damage, points will be taken from this stat until none are left.
-  Any subsequent damage is subtracted from the characters strength.
+  Any subsequent damage is subtracted from the characters `STR`.
 
-  Your characters starting hit points are equal to 5 plus your characters strength modifier
+  Your characters starting hit points are equal to 5 plus your characters `STR` modifier
 
 ---
 
@@ -181,24 +184,22 @@
 ### Character Advancement
 
   At the logical end of each adventure each player will gain a new skill or increase an existing skill
-  one level, gain 1 point to apply to their attributes,  as well as gaining their STR bonus in hit points.
+  one level, gain 1 point to apply to their attributes,  as well as gaining their `STR` bonus in hit points.
 
 ---
 
 ### Combat
 
-  Every character has a derived stat called armor class that determines how hard they are to damage.
-  This score covers both how hard they are to hit, as well as how hard it is to hurt them when you do hit them.
+  Attempts to harm a character or npc/monster are a skill check versus the armor class `AC`
+  of the target.
   A failed attack check may miss entirely, or not hit hard enough to cause harm.
   It's up to the GM to describe it as they see fit.
 
-  A character's armor class is equal to a base of 8, plus their dexterity modifier, plus their armor bonus if any. 
+  If successful roll damage for your weapon and add your `STR` bonus (if applicable) to the attack. 
 
-  When attacking you roll your skill check (fighting, throwing, shooting, etc) versus the targets armor class.
-  If successful roll damage for your weapon and add your strength bonus if applicable to the attack. 
-
-  Damage is dealt first to hit points and then to STR. "Cannon fodder" enemies usually do not take strength damage,
-  and are simply slain when their hit points are exhausted.
+  Damage is dealt first to hit points `HP` and then to `STR`.  
+  "Cannon fodder" enemies usually do not take `STR` damage, and are simply 
+  slain when their hit points are exhausted.
 
 ---
 
