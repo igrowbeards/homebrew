@@ -10,13 +10,15 @@
   * `COG` Cognition
   * `CHR` Charisma
 
-  All attributes start at 5, You get 15 points when characters are created to buff these scores.
-  In addition at character creation you may lower one attribute to by up to 5 points (to 0) and use the points removed 
-  on one of your other attributes if you so choose.
-  Any attribute at 0 or bellow should be a major part of the character and role-played as such.
+  All attributes start at 5, You get 15 points when characters are created to increase these scores,
+  however at character creation no single attribute may be higher than 15.
+  In addition at character creation you may optionally lower one attribute to by up to 5
+  points (to 0) and use the same number of points removed on one of your other
+  attributes. Keep in mind that any attribute below 5 should be a major part of
+  the character and role-played as such.
   
-  In addition to being used as the basis for checks when a talent is not more appropriate your attributes modify the results 
-  of other actions your player may take.
+  In addition to being used as the basis for checks when a talent is not more
+  appropriate your attributes modify the results of other actions your player may take.
 
   * `STR` modifies the damage dealt when you hit someone with something held in your hand or thrown.
   * `AGL` makes you more difficult to hit (adds to your armor class)
@@ -68,7 +70,7 @@
   Characters will frequently take actions that may or may not succeed. During the
   course of play players and the GM will make checks to decide the results of actions.
 
-  Checks are rolled on a single d20 + skill versus a target number provided by the GM.
+  Checks are rolled on a single d20 + talent modifier versus a target number provided by the GM.
 
   Target name | Target number
   ------------|---------------
@@ -77,8 +79,8 @@
   hard        | 15
   heroic      | 20
 
-  When instructed to roll a skill or attribute check, you roll a d20 and add
-  any relevant skill or attribute modifiers (positive or negative).
+  When instructed to roll a talent or attribute check, you roll a d20 and add
+  any relevant talent or attribute modifiers (positive or negative).
   If you're not sure if something should apply a modifier just ask the GM.
   Equal or greater than the target means your character was able to accomplish
   their stated goal.
@@ -107,9 +109,9 @@
 
   Talents are defined and recorded in the form of
 
-  > "My character is [_skill level_] at [_talent_]"
+  > "My character is [_talent level_] at [_talent_] ([_modifier_])"
 
-  The possible talent levels are:
+  Example talent levels are:
 
   level name    | bonus
   --------------|--------
@@ -118,22 +120,25 @@
   above average | +3
   great         | +4
   amazing       | +5
-  legendary     | +7
+  world class   | +6
+  legendendary  | +7
 
   For example:
 
-  > "Arthur is good at fighting with medium weapons"
+  > "Arthur is good at fighting with medium weapons (+1)"
   >
-  >  "Leroy Jenkins is very good at maneuvering in heavy armor"
+  >  "Leroy Jenkins is very good at maneuvering in heavy armor (+2)"
   >
-  >  "Robin Hood is amazing at firing bows"
+  >  "Robin Hood is amazing at firing bows (+5)"
   >
-  >  "Rocky is great at unarmed fighting"
+  >  "Rocky is great at unarmed fighting (+4)"
   >
-  >  "Dumbledore is legendary at evocation spells"
+  >  "Dumbledore is legendary at evocation spells (+7)"
     
-  All magical talents are special skills that can usually only be taken during character creation
-  (unless your GM says otherwise).
+  All magical talents are special talents that can usually only be taken during character creation
+  (unless your GM says otherwise). Usually a character that is skilled at one school of
+  magic _can_ take a magical talent in another school after creation, but as always
+  ultimate say lies with your GM.
   
   Magical talents should usually be fairly focused. Some good examples would be:
 
@@ -143,32 +148,50 @@
     
 ---
 
-### Weaknesses    
+### Weaknesses
   
-  Your characters weaknesses are things that your character has trouble doing, or situations that cause him to perform poorly.
+  Your characters weaknesses are things that your character has trouble doing,
+  situations that cause him to perform poorly, or personal or situational traits
+  that make life more difficult for them.
 
-  They are defined and recorded in the form of:
+  The standard form of these are defined and recorded something like:
 
-  > "My character is [_weakness level_] at [_skill_]"
+  > "My character is [_weakness level_] at [_skill_] ([_modifier_])"
 
   or
 
-  > "My character is [_weakness level_] when confronted with [_situation_]"
+  > "My character is [_weakness level_] when confronted with [_situation_] ([_modifier_])"
   
-  The possible talent levels are:
+  where possible talent levels are:
   
-  weakness level       | modifier
-  ---------------------|----------
-  bad / uneasy         | -1
-  awful / scared       | -2
-  hopeless / terrified | -3
+  weakness level            | modifier
+  --------------------------|----------
+  below average / uneasy    | -1
+  bad / anxious             | -2
+  awful / scared            | -3
+  hopeless / petrified      | -4
+  attrotious / scared stiff | -5
 
-  During character creation you _must_ take at least one weakness, but may optionally take 2 more levels.
-  You may increase a skill by one level for each of the 2 optional weakness levels you take.
+  During character creation you _must_ take at least one weakness, but may optionally take 5 more levels.
+  You may increase a skill by one level for each of the optional weakness levels you take.
 
-  Be aware that weaknesses are not just numbers on the page, but should be used when role-playing your character as well
-  as by the GM when crafting adventures.
-  
+  The above are just examples. Players or GMs may come up with other forms of
+  weaknesses, and that is encouraged.
+
+  Some example of less tradional weaknesses that characters may have are:
+
+  * difficulty resisting temptation or vices (lust, greed, etc)
+  * A powerful enemy that foils the players plans
+  * Some sort of health condition (bad eyesight, maimed limbs, addictions)
+  * etc
+
+  When assigning modifiers and extra advancment points for these less standard
+  weaknesses the GM should consider how often the scenario or situation is
+  likely to come up how disadvantageous it will be when it happens.
+
+  Be aware that weaknesses are not just numbers on the page, but should be used
+  when role-playing your character as well as by the GM when crafting adventures.
+
 ---
 
 ### Casting Spells
@@ -204,13 +227,13 @@
 
   Melee Weapons:
 
-  Type     | Example Weapons                                                       | Damage
-  ---------|-----------------------------------------------------------------------|--------
-  Unarmed  |                                                                       | d2
-  Light    | small or pocket knives, improvised weapons, highly trained unarmed    | d4
-  Regular  | hunting knives, hatchets, small clubs, hammers, or cudgels            | d6
-  Medium   | swords, axes, large one handed clubs or maces, staves or spears       | d8
-  Heavy    | Pole Arms, two handed axes or swords, two handed large clubs or maces | d10
+  Type     | Example Weapons                                                         | Damage
+  ---------|-------------------------------------------------------------------------|--------
+  Unarmed  | an average unarmed person, without extensive or formal combat training  | d2
+  Light    | small or pocket knives, improvised weapons, highly trained unarmed      | d4
+  Regular  | hunting knives, hatchets, small clubs, hammers, or cudgels              | d6
+  Medium   | swords, axes, large one handed clubs or maces, staves or spears         | d8
+  Heavy    | Pole Arms, two handed axes or swords, two handed large clubs or maces   | d10
 
   In general some medium and almost all heavy weapons require 2 hands to wield properly.
 
