@@ -5,7 +5,7 @@
   course of play players and the GM will make checks to decide the results of
   actions.
   
-  Checks are rolled on a single d20+skill versus a target number provided by the GM.
+  Checks are rolled on a single d20 + skill versus a target number provided by the GM.
 
   Target name | Target number 
   ------------|-------------
@@ -39,7 +39,8 @@
 ### Attributes
 
 #### Basic Attributes
-  There are 4 basic attributes that define your character
+  There are 4 basic attributes that define your character:
+
   * Strength
   * Agility
   * Cognition
@@ -48,12 +49,12 @@
   All attributes start at 5, You get 15 points when characters are created to buff these scores.
   In addition at character creation you may lower one attribute to by up to 5 points (to 0) and use the points removed 
   on one of your other attributes if you so choose.
-  Any attribute at 0 or bellow should be a major part of the character and roleplayed as such.
+  Any attribute at 0 or bellow should be a major part of the character and role-played as such.
   
   In addition to being used as the basis for checks when a talent is not more appropriate your attributes modify the results 
   of other actions your player may take.
 
-  * Strength modifies the damage dealth when you hit someone with something held in your hand or thrown.
+  * Strength modifies the damage dealt when you hit someone with something held in your hand or thrown.
   * Dexterity makes you more difficult to hit (adds to your armor class)
   * Cognition is added to spell casting attempts
   * Charisma is added to attempts to lie, persuade, or perform
@@ -74,7 +75,7 @@
    At -10 in any ability score your character is disabled.
    With regards to agility this means they are crippled, paralyzed or otherwise cannot move.
    When at -10 or lower in cognition your character is unconscious, stunned, or comatose.
-   It would be uncommon to be at -10 in charisma and so i'll leave that up to the GM and the situation.
+   It would be uncommon to be at -10 in charisma and so the consequences thereof are left as an exercise for the GM.
    
    The major outlier in these is strength. If you character reaches -10 or lower in strength, their body is too weakened
    or damaged to go on. They are unconscious and will die if not tended to soon or if they take any further damage.
@@ -104,7 +105,7 @@
 
   Talents are defined and recorded in the form of
 
-    > "My character is _skill level_ at _talent_"
+  > "My character is _skill level_ at _talent_"
 
   The possible talent levels are:
 
@@ -121,7 +122,7 @@
 
   > "Arthur is good at fighting with medium weapons"
   >
-  >  "Leroy Jenkins is very good at manuevering in heavy armor"
+  >  "Leroy Jenkins is very good at maneuvering in heavy armor"
   >
   >  "Robin Hood is amazing at firing bows"
   >
@@ -129,7 +130,7 @@
   >
   >  "Dumbledore is legendary at evocation spells"
     
-  All magical talents are special skill that can usually only be taken during character creation
+  All magical talents are special skills that can usually only be taken during character creation
   (unless your GM says otherwise).
   
   Magical talents should usually be fairly focused. Some good examples would be:
@@ -144,7 +145,7 @@
   
   Your characters weaknesses are things that your character has trouble doing, or situations that cause him to perform poorly.
 
-  They are defiend and recorded in the form of:
+  They are defined and recorded in the form of:
 
   > "My character is _level_ at _skill_"
 
@@ -163,16 +164,16 @@
   During character creation you _must_ take at least one weakness, but may optionally take 2 more levels.
   You may increase a skill by one level for each of the 2 optional weakness levels you take.
 
-  Be aware that weaknesses are not just numbers on the page, but should be used when roleplaying your character as well
-  as by the dm when crafting adventures.
+  Be aware that weaknesses are not just numbers on the page, but should be used when role-playing your character as well
+  as by the GM when crafting adventures.
   
 ---
 
 ### Casting Spells
 
-  Characters can cast spells relevant to their magical talents at will, and without having pre-defined "spells"
+  Characters can cast spells relevant to their magical talents at will, and without having predefined "spells"
   To cast a spell tell the GM what you are trying to do (preferably with a flashy name and description)
-  Your dm will then tell you the target difficulty for your spell casting check.
+  Your GM will then tell you the target difficulty for your spell casting check.
   When successful the spell works and the GM will describe the effects of your successful casting.
   
 ---
@@ -180,7 +181,7 @@
 ### Character Advancement
 
   At the logical end of each adventure each player will gain a new skill or increase an existing skill
-  one level, gain 1 point to apply to their attributes,  as well as gaining their str bonus in hitpoints.
+  one level, gain 1 point to apply to their attributes,  as well as gaining their STR bonus in hit points.
 
 ---
 
@@ -193,10 +194,10 @@
 
   A character's armor class is equal to a base of 8, plus their dexterity modifier, plus their armor bonus if any. 
 
-  When attacking you role your skill check (fighting, throwing, shooting, etc) versus the targets armor class.
-  If successful role damage for your weapon and add your strength bonus if applicable to the attack. 
+  When attacking you roll your skill check (fighting, throwing, shooting, etc) versus the targets armor class.
+  If successful roll damage for your weapon and add your strength bonus if applicable to the attack. 
 
-  Damage is dealt first to hit points and then to str. "Cannon fodder" enemies usually do not take strength damage,
+  Damage is dealt first to hit points and then to STR. "Cannon fodder" enemies usually do not take strength damage,
   and are simply slain when their hit points are exhausted.
 
 ---
@@ -227,7 +228,7 @@
   The maximum is the max protection it can provide a skilled user.
   Taking talents in armor/shield usage increases the effectiveness up to a cap of the max.
 
-  armor type   |  exampeles                       | base  | max | penalty
+  armor type   |  examples                       | base  | max | penalty
   -------------|----------------------------------|-------|-----|------------
   light        | cloth or padded, thick robes     | +1    | +1  |  0
   medium       | leather                          | +1    | +2  | -2
@@ -246,14 +247,14 @@
   quietly, cast spells, as well as any difficult non-combat athletic maneuvers 
   such as tumbling, swimming, climbing, etc.
   
-  Holding any shield causes similar penaties as armor but at an increased rate of max protection +1.
+  Holding any shield causes similar penalties as armor but at an increased rate of max protection +1.
   
 ---
 
 ### Healing and Recovery  
 
   Hit points are recovered fully after combat ends and characters have a chance to rest for 10-15 minutes.
-  All damaged attributes regain points at the rate of 1d4 a day if the characters are able to eat and rest safely for at
+  All damaged attributes regain points at the rate of 1-d4 a day if the characters are able to eat and rest safely for at
   least 4-6 hours.
 
   Characters with talents in medicine or first aid can treat physically injured characters to give them a bonus of up to their
