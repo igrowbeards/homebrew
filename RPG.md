@@ -1,41 +1,5 @@
 # Gameplay Rules
 
-### Action Checks
-  Characters will frequently take actions that may or may not succeed. During the
-  course of play players and the GM will make checks to decide the results of
-  actions.
-  
-  Checks are rolled on a single d20 + skill versus a target number provided by the GM.
-
-  Target name | Target number 
-  ------------|-------------
-  easy        | 5
-  normal      | 10
-  hard        | 15
-  heroic      | 20
-
-  When instructed to roll a skill or attribute check, you roll a d20 and add 
-  any relevant skill or attribute modifiers (positive or negative).
-  If you're not sure if something should apply a modifier just ask the GM.
-  Equal or greater than the target means your character was able to accomplish
-  their stated goal.
-
-  A natural one is a catastrophic failure and a natural 20 is a critical success, regardless of modifier.
-  
-#### Failing Action Checks   
-
-  Under normal circumstances failing a talent or attribute check just means that what you're trying to do doesn't work
-  and you suffer any logical ramifications of that.
-
-  However in some circumstances failure on checks can lead to temporary damage to your attributes.
-
-  * A critical failure on a check causes the difference after any modifiers between the target and the result 
-    after any modifiers in damage to the relevant attribute. If the attribute that should be damaged isn't obvious 
-    it's left to the GM's discrection.
-  * Failure on a casting check _always_ causes temporary cognition damage.
-
----
-
 ### Attributes
 
 #### Basic Attributes
@@ -61,24 +25,24 @@
 
   You gain modifiers to relevant checks based on the following scale:
 
-  score      | modifier
-  -----------|-----------
-  20         | +3
-  15...19    | +2
-  10...14    | +1 
-  5...9      | 0
-  1...4      | -1 
-  0...-4     | -2 
-  -5...-9    | -3 
-  <= -10     | disabled
+  score   | modifier
+  --------|----------
+  20      | +3
+  15...19 | +2
+  10...14 | +1
+  5...9   |  0
+  1...4   | -1
+  0...-4  | -2
+  -5...-9 | -3
+  <= -10  | disabled
    
-   At -10 in any ability score your character is disabled.
-   With regards to `AGL` this means they are crippled, paralyzed or otherwise cannot move.
-   When at -10 or lower in `COG` your character is unconscious, stunned, or comatose.
-   It would be uncommon to be at -10 in `CHR` and so the consequences thereof are left as an exercise for the GM.
-   
-   The major outlier in these is `STR`. If you character reaches -10 or lower in `STR`, their body is too weakened
-   or damaged to go on. They are unconscious and will die if not tended to soon or if they take any further damage.
+  At -10 in any ability score your character is disabled.
+  With regards to `AGL` this means they are crippled, paralyzed or otherwise cannot move.
+  When at -10 or lower in `COG` your character is unconscious, stunned, or comatose.
+  It would be uncommon to be at -10 in `CHR` and so the consequences thereof are left as an exercise for the GM.
+
+  The major outlier in these is `STR`. If you character reaches -10 or lower in `STR`, their body is too weakened
+  or damaged to go on. They are unconscious and will die if not tended to soon or if they take any further damage.
    
 #### Derived Attributes
 
@@ -97,6 +61,41 @@
   Any subsequent damage is subtracted from the characters `STR`.
 
   Your characters starting hit points are equal to 5 plus your characters `STR` modifier
+
+---
+
+### Action Checks
+  Characters will frequently take actions that may or may not succeed. During the
+  course of play players and the GM will make checks to decide the results of actions.
+
+  Checks are rolled on a single d20 + skill versus a target number provided by the GM.
+
+  Target name | Target number
+  ------------|---------------
+  easy        | 5
+  normal      | 10
+  hard        | 15
+  heroic      | 20
+
+  When instructed to roll a skill or attribute check, you roll a d20 and add
+  any relevant skill or attribute modifiers (positive or negative).
+  If you're not sure if something should apply a modifier just ask the GM.
+  Equal or greater than the target means your character was able to accomplish
+  their stated goal.
+
+  A natural one is a catastrophic failure and a natural 20 is a critical success, regardless of modifier.
+
+#### Failing Action Checks
+
+  Under normal circumstances failing a talent or attribute check just means that what you're trying to do doesn't work
+  and you suffer any logical ramifications of that.
+
+  However in some circumstances failure on checks can lead to temporary damage to your attributes.
+
+  * A critical failure on a check causes the difference after any modifiers between the target and the result
+    after any modifiers in damage to the relevant attribute. If the attribute that should be damaged isn't obvious
+    it's left to the GM's discrection.
+  * Failure on a casting check _always_ causes temporary `COG` damage.
 
 ---
 
@@ -174,18 +173,12 @@
 
 ### Casting Spells
 
-  Characters can cast spells relevant to their magical talents at will, and without having predefined "spells"
+  Characters who took magical skills at character creation can cast spells
+  relevant to their magical talents at will, and without having predefined "spells"
   To cast a spell tell the GM what you are trying to do (preferably with a flashy name and description)
   Your GM will then tell you the target difficulty for your spell casting check.
   When successful the spell works and the GM will describe the effects of your successful casting.
   
----
-
-### Character Advancement
-
-  At the logical end of each adventure each player will gain a new skill or increase an existing skill
-  one level, gain 1 point to apply to their attributes,  as well as gaining their `STR` bonus in hit points.
-
 ---
 
 ### Combat
@@ -205,18 +198,19 @@
 
 ### Weapons
 
-  Weapons are classified into the following broad damage categories. If your character uses a weapon that doesn't easily
-  fit into one of the categories talk to your GM to determine it's stats.
+  Weapons are classified into the following broad damage categories.
+  If your character uses a weapon that doesn't easily fit into one of the
+  categories talk to your GM to determine it's stats.
 
   Melee Weapons:
 
-  Type                      | Example Weapons                                                       | Damage
-  --------------------------|-----------------------------------------------------------------------|-----------------
-  Unarmed                   |                                                                       | d2
-  Light                     | small or pocket knives, improvised weapons, highly trained unarmed    | d4
-  Regular                   | hunting knives, hatchets, small clubs, hammers, or cudgels            | d6
-  Medium                    | swords, axes, large one handed clubs or maces, staves or spears       | d8
-  Heavy                     | Pole Arms, two handed axes or swords, two handed large clubs or maces | d10
+  Type     | Example Weapons                                                       | Damage
+  ---------|-----------------------------------------------------------------------|--------
+  Unarmed  |                                                                       | d2
+  Light    | small or pocket knives, improvised weapons, highly trained unarmed    | d4
+  Regular  | hunting knives, hatchets, small clubs, hammers, or cudgels            | d6
+  Medium   | swords, axes, large one handed clubs or maces, staves or spears       | d8
+  Heavy    | Pole Arms, two handed axes or swords, two handed large clubs or maces | d10
 
   In general some medium and almost all heavy weapons require 2 hands to wield properly.
 
@@ -229,20 +223,20 @@
   The maximum is the max protection it can provide a skilled user.
   Taking talents in armor/shield usage increases the effectiveness up to a cap of the max.
 
-  armor type   |  examples                       | base  | max | penalty
-  -------------|----------------------------------|-------|-----|------------
-  light        | cloth or padded, thick robes     | +1    | +1  |  0
-  medium       | leather                          | +1    | +2  | -2
-  heavy        | ring or chain mail               | +2    | +3  | -3
-  extra heavy  | plate                            | +2    | +5  | -5
+  armor type   |  examples                    | base  | max | penalty
+  -------------|------------------------------|-------|-----|---------
+  light        | cloth or padded, thick robes | +1    | +1  |  0
+  medium       | leather                      | +1    | +2  | -2
+  heavy        | ring or chain mail           | +2    | +3  | -3
+  extra heavy  | plate                        | +2    | +5  | -5
     
   Similar to armor shields provide a bonus to a character's armor class.
     
-  type      | base  | max | penalty
-  ----------|-------|-----|----------
-  small     | +1    | +2  | -3
-  medium    | +2    | +3  | -4
-  large     | +3    | +4  | -5
+  type   | base  | max | penalty
+  -------|-------|-----|---------
+  small  | +1    | +2  | -3
+  medium | +2    | +3  | -4
+  large  | +3    | +4  | -5
     
   Caveats: Wearing light or heavier armor causes a `penalty` to attempts to move
   quietly, cast spells, as well as any difficult non-combat athletic maneuvers 
@@ -260,3 +254,10 @@
 
   Characters with talents in medicine or first aid can treat physically injured characters to give them a bonus of up to their
   skill level on their daily healing roll.
+
+---
+
+### Character Advancement
+
+  At the logical end of each adventure each player will gain a new skill or increase an existing skill
+  one level, gain 1 point to apply to their attributes,  as well as gaining their `STR` bonus in hit points.
