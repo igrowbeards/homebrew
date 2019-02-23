@@ -107,7 +107,7 @@
 
   Talents are defined and recorded in the form of
 
-  > "My character is _skill level_ at _talent_"
+  > "My character is [_skill level_] at [_talent_]"
 
   The possible talent levels are:
 
@@ -149,19 +149,19 @@
 
   They are defined and recorded in the form of:
 
-  > "My character is _level_ at _skill_"
+  > "My character is [_weakness level_] at [_skill_]"
 
   or
 
-  > "My character is _level_ when confronted with _situation_"
+  > "My character is [_weakness level_] when confronted with [_situation_]"
   
   The possible talent levels are:
   
-  level                          | modifier
-  -------------------------------|----------
-  bad / uneasy / dislikes        | -1
-  awful / scared / hates         | -2 
-  hopeless / terrified / loathes | -3 
+  weakness level       | modifier
+  ---------------------|----------
+  bad / uneasy         | -1
+  awful / scared       | -2
+  hopeless / terrified | -3
 
   During character creation you _must_ take at least one weakness, but may optionally take 2 more levels.
   You may increase a skill by one level for each of the 2 optional weakness levels you take.
