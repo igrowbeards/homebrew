@@ -217,6 +217,39 @@
   "Cannon fodder" enemies usually do not take `STR` damage, and are simply 
   slain when their hit points are exhausted.
 
+#### Dual Wielding
+
+  Any character can dual wield weapons, although doing so causes a penalty to attacks.
+  Talents in dual wielding can be taken to offset the penalties.
+  A dual wielding character may make an attack with each hand during their round, once 
+  on their regular turn, and the second at the end of the round. A character that takes and damage
+  during the round after their first attack loses their second.
+
+  All dual wielding characters use the penalties below.
+  Medium weapons and larger add an additional penalty of -1 per size, per hand.
+
+  Dual Wield Talent Level   | Dominant Hand Penalty   | Off Hand Penalty  
+  --------------------------|-------------------------|-------------------
+  none                      | -3                      | -7
+  good                      | -3                      | -6
+  very good                 | -2                      | -5
+  above average             | -2                      | -4
+  great                     | -1                      | -3
+  amazing                   | -1                      | -2
+  world class               |  0                      | -1
+  legendary                 |  0                      |  0
+
+
+  ```
+  example:
+
+  Retion uses a short sword (a medium weapon) in his dominant hand and a dagger (a medium weapon) and 
+  in his off hand. He has no talent levels in dual wielding so his attack rolls are at
+  -4 for his dominant hand (-3 for dual wielding and -1 for using a medium weapon while dual wielding)
+  Attacks with his off hand are at -7 (all from the dual wielding penalty as there is no additional penalty for
+  regular sized welcomes)
+  ```
+
 ---
 
 ### Weapons
