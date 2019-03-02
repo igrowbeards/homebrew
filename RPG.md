@@ -331,3 +331,19 @@
 
   At the logical end of each adventure each player will gain a new skill or increase an existing skill
   one level, gain 1 point to apply to their attributes,  as well as gaining their `STR` bonus in hit points.
+
+### Tips
+
+  1) The primary goal is to have fun. All other principles are secondary to this first principle.
+  2) RPGs are an exercise in collaborative storytelling. Make sure you're telling a story you want to hear.
+  3) The "rules" are really more guidelines.
+  4) Any rule that does not add to the fun or even worse takes away from the fun should be replaced or removed.
+  5) Any situation that is repeatedly causing problems should have a rule added to help resolve or avoid the problems.
+  5) Feel free to change, add, or remove rules, but try to make changes outside of game time.
+  6) During gameplay the GM's word is law.
+  7) Outside of active game time all participants are equal. Taking some time outside of gameplay to talk about 
+     what has and hasn't been fun is encouraged.
+  8) The GM's responsibilities are to have fun, to create the world the players act in, and to manage the game, in that order.
+  9) A players' responsibility is first to have fun, and second to work with the GM and other players to tell an interesting story.
+  10) Communication is key.
+  11) You will get out of the game what you put into it.
