@@ -206,7 +206,7 @@
 
 ### Combat
 
-  Attempts to harm a character or npc/monster are a skill check versus the armor class `AC`
+  Attempts to harm a character or NPC/monster are a skill check versus the armor class `AC`
   of the target.
   A failed attack check may miss entirely, or not hit hard enough to cause harm.
   It's up to the GM to describe it as they see fit.
@@ -216,6 +216,20 @@
   Damage is dealt first to hit points `HP` and then to `STR`.  
   "Cannon fodder" enemies usually do not take `STR` damage, and are simply 
   slain when their hit points are exhausted.
+
+#### Initiative
+  At the beginning of any other scenario where timing and the order of actions is important
+  the characters and NPCs involved can roll an initiative check to determine the order of their actions.
+  Scenarios such as combat where the action continues for more than one round of actions
+  just repeat the process. 
+  An initiative check is an `AGL` check, with the entities with the highest results going first.
+
+  In cases where one side or another in a situation is caught by surprise the GM will usually
+  rule that the surprised character, NPC, or group automatically goes last. In certain more extreme
+  cases the surprised group may not get a turn at all. 
+
+  Optionally If the group desires faster gameplay the initial initiative results can just be
+  used throughout the encounter, without re-rolling each round.
 
 #### Dual Wielding
 
