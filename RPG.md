@@ -170,7 +170,7 @@
   bad / anxious             | -2
   awful / scared            | -3
   hopeless / petrified      | -4
-  attrotious / scared stiff | -5
+  atrocious / scared stiff  | -5
 
   During character creation you _must_ take at least one weakness, but may optionally take 5 more levels.
   You may increase a skill by one level for each of the optional weakness levels you take.
@@ -178,14 +178,14 @@
   The above are just examples. Players or GMs may come up with other forms of
   weaknesses, and that is encouraged.
 
-  Some example of less tradional weaknesses that characters may have are:
+  Some example of less traditional weaknesses that characters may have are:
 
   * difficulty resisting temptation or vices (lust, greed, etc)
   * A powerful enemy that foils the players plans
   * Some sort of health condition (bad eyesight, maimed limbs, addictions)
   * etc
 
-  When assigning modifiers and extra advancment points for these less standard
+  When assigning modifiers and extra advancement points for these less standard
   weaknesses the GM should consider how often the scenario or situation is
   likely to come up how disadvantageous it will be when it happens.
 
