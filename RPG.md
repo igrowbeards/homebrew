@@ -10,12 +10,8 @@
   * `COG` Cognition
   * `CHR` Charisma
 
-  All attributes start at 5, You get 15 points when characters are created to increase these scores,
+  All attributes start at 0, You get 20 points when characters are created to increase these scores,
   however at character creation no single attribute may be higher than 15.
-  In addition at character creation you may optionally lower one attribute to by up to 5
-  points (to 0) and use the same number of points removed on one of your other
-  attributes. Keep in mind that any attribute below 5 should be a major part of
-  the character and role-played as such.
   
   In addition to being used as the basis for checks when a talent is not more
   appropriate your attributes modify the results of other actions your player may take.
@@ -29,13 +25,13 @@
 
   score   | modifier
   --------|----------
-  20      | +3
-  15...19 | +2
-  10...14 | +1
-  5...9   |  0
-  1...4   | -1
-  0...-4  | -2
-  -5...-9 | -3
+  20      | +4
+  15...19 | +3
+  10...14 | +2
+  5...9   | +1
+  0...4   |  0 
+  0...-4  | -1
+  -5...-9 | -2
   <= -10  | disabled
    
   At -10 in any ability score your character is disabled.
