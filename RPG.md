@@ -81,6 +81,9 @@
   Equal or greater than the target means your character was able to accomplish
   their stated goal.
 
+  When attempting skill checks that your character has no talents in, use the relevant ability score (as determined by the dm)
+  instead of the talent bonus, but do so at a -3 penalty.
+
   A natural one is a catastrophic failure and a natural 20 is a critical success, regardless of modifier.
 
 #### Failing Action Checks
