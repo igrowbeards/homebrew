@@ -205,8 +205,8 @@
 
 ### Combat
 
-  Attempts to harm a character or NPC/monster are a skill check versus the armor class `AC`
-  of the target.
+  Attempts to harm a character or NPC/monster are a modified skill check versus the armor class `AC`
+  of the target. Attack rolls use _both_ the ability and skill bonus (str for melee, agl for ranged).
   A failed attack check may miss entirely, or not hit hard enough to cause harm.
   It's up to the GM to describe it as they see fit.
 
