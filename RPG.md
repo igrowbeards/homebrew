@@ -81,7 +81,7 @@
   Equal or greater than the target means your character was able to accomplish
   their stated goal.
 
-  When attempting skill checks that your character has no talents in, use the relevant ability score (as determined by the dm)
+  When attempting talent checks that your character has no talents in, use the relevant ability score (as determined by the dm)
   instead of the talent bonus, but do so at a -3 penalty.
 
   A natural one is a catastrophic failure and a natural 20 is a critical success, regardless of modifier.
@@ -102,9 +102,9 @@
 
 ### Talents
 
-  You define your characters skills via a list of talents 
+  You define your characters skills and abilities via a list of talents.
   Talents give your character bonuses to related checks.
-  Unless your GM tell you otherwise your character starts with 3 talents.
+  Unless your GM tells you otherwise your character starts with 3 talents.
 
   Talents are defined and recorded in the form of
 
@@ -135,7 +135,7 @@
   >  "Dumbledore is legendary at evocation spells (+7)"
     
   All magical talents are special talents that can usually only be taken during character creation
-  (unless your GM says otherwise). Usually a character that is skilled at one school of
+  (unless your GM says otherwise). Usually a character that is talented at one school of
   magic _can_ take a magical talent in another school after creation, but as always
   ultimate say lies with your GM.
   
@@ -155,7 +155,7 @@
 
   The standard form of these are defined and recorded something like:
 
-  > "My character is [_weakness level_] at [_skill_] ([_modifier_])"
+  > "My character is [_weakness level_] at [_talent_] ([_modifier_])"
 
   or
 
@@ -172,7 +172,7 @@
   atrocious / scared stiff  | -5
 
   During character creation you _must_ take at least one weakness, but may optionally take 5 more levels.
-  You may increase a skill by one level for each of the optional weakness levels you take.
+  You may increase a talent by one level for each of the optional weakness levels you take.
 
   The above are just examples. Players or GMs may come up with other forms of
   weaknesses, and that is encouraged.
@@ -195,7 +195,7 @@
 
 ### Casting Spells
 
-  Characters who took magical skills at character creation can cast spells
+  Characters who took magical talents at character creation can cast spells
   relevant to their magical talents at will, and without having predefined "spells"
   To cast a spell tell the GM what you are trying to do (preferably with a flashy name and description)
   Your GM will then tell you the target difficulty for your spell casting check.
@@ -205,8 +205,8 @@
 
 ### Combat
 
-  Attempts to harm a character or NPC/monster are a modified skill check versus the armor class `AC`
-  of the target. Attack rolls use _both_ the ability and skill bonus (str for melee, agl for ranged).
+  Attempts to harm a character or NPC/monster are a modified talent check versus the armor class `AC`
+  of the target. Attack rolls use _both_ the ability and talent bonus (str for melee, agl for ranged).
   A failed attack check may miss entirely, or not hit hard enough to cause harm.
   It's up to the GM to describe it as they see fit.
 
@@ -322,13 +322,13 @@
   least 4-6 hours.
 
   Characters with talents in medicine or first aid can treat physically injured characters to give them a bonus of up to their
-  skill level on their daily healing roll.
+  talent level on their daily healing roll.
 
 ---
 
 ### Character Advancement
 
-  At the logical end of each adventure each player will gain a new skill or increase an existing skill
+  At the logical end of each adventure each player will gain a new talent or increase an existing talent
   one level, as well as gaining 1 + their `STR` bonus in hit points.
 
   On even levels the character also gains 1 point to add to one of their 4 core attributes.
