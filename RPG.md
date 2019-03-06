@@ -329,7 +329,9 @@
 ### Character Advancement
 
   At the logical end of each adventure each player will gain a new skill or increase an existing skill
-  one level, gain 1 point to apply to their attributes,  as well as gaining their `STR` bonus in hit points.
+  one level, as well as gaining 1 + their `STR` bonus in hit points.
+
+  On even levels the character also gains 1 point to add to one of their 4 core attributes.
 
 ### Tips
 
